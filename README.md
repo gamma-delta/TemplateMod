@@ -7,6 +7,7 @@ for Forge Minecraft Modding, yahoo
 1. Import the project and let Gradle do its thing
 2. Swap the comments on the mappings so it uses Parchment and `genIntellijRuns`
 3. Change the mod ID and name in the `mods.toml`
+4. Move the `TemplateMod` file to where it needs to go
 
 ### To Get CI Set Up And Appease My Patrons
 
