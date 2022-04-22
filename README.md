@@ -16,3 +16,4 @@ for Forge Minecraft Modding, yahoo
     - Repo View Creds
     - Github repo URL
     - Build strategies: named branches, exact name, `main`
+3. Add (the Discord `git-log` channel url) and `https://ci.blamejared.com/github-webhook/` as webhooks in Github
