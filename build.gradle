@@ -26,6 +26,7 @@ plugins {
 }
 apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'org.parchmentmc.librarian.forgegradle'
+apply plugin: 'org.spongepowered.mixin'
 
 
 version = modVersion
@@ -169,8 +170,8 @@ sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 /*
 mixin {
-    add sourceSets.main, "$modid.mixins.refmap.json"
-    config "$modid.mixins.json"
+    add sourceSets.main, "${modID}.mixins.refmap.json"
+    config "${modID}.mixins.json"
     dumpTargetOnFailure true
 }
 */
