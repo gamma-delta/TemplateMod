@@ -35,3 +35,9 @@ Template for my mods
     versionRange="[1.18.2,1.19)"
     ordering="NONE"
     side="BOTH"
+[[dependencies.templatemod]]
+    modId="paucal"
+    mandatory=true
+    versionRange="[0.3.4,0.4.0)"
+    ordering="NONE"
+    side="BOTH"
